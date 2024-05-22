@@ -14,6 +14,7 @@ function Loader() {
         yPercent:150,
         opacity:0,
         duration:2,
+        delay:0.1,
         ease:"power4.out"
       })
       tl.to(load.current, {
