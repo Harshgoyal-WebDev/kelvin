@@ -1,33 +1,64 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@font-face {
+    font-family: "Instrument";
+    src: url("/font/InstrumentSans.ttf");
+}
+html{
+    font-family: 'Instrument';
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.font-Instrument{
+    font-family: "Instrument";
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+body{
+    margin: 0;
+    padding: 0;
+    background: #0A0A0A;
+    overflow-x: hidden;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.btn .white {
+    color: black;
+    background-color: white;
+    border-color: white;
+    min-width: 12vw;
+    
+}
+.btn .blue {
+    color: white;
+    background-color: #173aff;
+    border-color: #173aff;
+    
+    min-width: 8vw;
+    padding: 0.5vh 0;
+    
+
+}
+.btn .transparent {
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    min-width: 12vw;
+
+}
+.buttonhover div span{
+    margin-top: 0px;
+    transform: translateY(0);
+    transition: all 0.3s ease-in-out;
+}
+.buttonhover:hover div span{
+    transform: translateY(-120%);
+    transition: all 0.5s cubic-bezier(.4,0,0,1);
+}
+.btn .overview{
+    color:#333333;
+    background-color:#F3F4F6;
+    border-color: #b4b4b4;
+    border-width: 0.1vw;
+    padding: 1.5vw 1vw;
+    min-width: 15vw;
+    font-size:1.5vw;
 }
