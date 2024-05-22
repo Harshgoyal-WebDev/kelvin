@@ -110,7 +110,7 @@ function Feature() {
           </div>
         </div>
         <div className="feature-container3 w-full flex justify-center items-center py-[10vw] mobile:py-[1vh] feature-card">
-          <div className="h-[35vw] w-[80vw] bg-[#324EEF] rounded-[3vw] flex mobile:w-[95%] mobile:h-[70vh] mobile:rounded-[3vh] mobile:flex-col">
+          <div className="h-[35vw] w-[80vw] bg-[#324EEF] rounded-[3vw] flex mobile:w-[95%] mobile:h-[70vh] mobile:rounded-[3vh] mobile:flex-col overflow-hidden">
             <div className="w-[40%] h-[50%]  mobile:w-full mobile:flex mobile:justify-center mobile:items-center mobile:overflow-hidden ">
               <img
                 src="/images/featureimg3.png"
