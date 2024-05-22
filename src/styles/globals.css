@@ -44,13 +44,26 @@ body{
     min-width: 12vw;
 
 }
+ .btn .blue div span{
+    margin-top: 3px;
+}
+.btn .blue:hover div span{
+    transform: translateY(-120%);
+    transition: all 0.5s cubic-bezier(.4,0,0,1);
+}
+.btn .white div span{
+    margin-top: 3px;
+}
+.btn .transparent div span{
+    margin-top: 3px;
+}
 .buttonhover div span{
-    margin-top: 0px;
+    margin-top: -5px;
     transform: translateY(0);
     transition: all 0.3s ease-in-out;
 }
 .buttonhover:hover div span{
-    transform: translateY(-120%);
+    transform: translateY(-100%);
     transition: all 0.5s cubic-bezier(.4,0,0,1);
 }
 .btn .overview{
