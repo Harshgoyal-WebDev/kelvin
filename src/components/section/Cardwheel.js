@@ -1,14 +1,12 @@
 import React from 'react'
 import Cards from '../Cards'
 import gsap from "gsap";
-import ScrollTrigger from "gsap/dist/ScrollTrigger";
+import ScrollTrigger from 'gsap/dist/ScrollTrigger';
 import { useGSAP } from "@gsap/react";
 import Image from 'next/image';
 
 function Cardwheel() {
-    useGSAP(() => {
-      
-        
+    useGSAP(() => {   
         if(globalThis.innerWidth<541){
           const tl = gsap.timeline({
             scrollTrigger:{
@@ -24,12 +22,8 @@ function Cardwheel() {
             scrollTrigger:{
               trigger:".card",
               scrub:true,
-              
             }
           })
-          
-
-
         }else{
           const tl = gsap.timeline({
             scrollTrigger: {
@@ -60,16 +54,6 @@ function Cardwheel() {
           ease:"power1.inout"
         })
         }
-        
-      
-        
-        
-       
-        
-    
-
-    
-    
     })
   return (
     <>
