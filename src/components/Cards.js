@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image from 'next/image'
 
 function Cards({content ,src , ind}) {
   return (
@@ -9,7 +9,7 @@ function Cards({content ,src , ind}) {
           <p>{ind}</p>
         </div>
         <div className='w-[70%] h-[70%] absolute top-[-12%] right-[5%] mobile:top-[10%] mobile:left-[15%]'>
-          <img src={src} alt='cardimage'/>
+          <Image src={src} alt='cardimage' width={500} height={500} loading="lazy"/>
         </div>
         <div className='absolute top-[70%] pe-[2vw] mobile:top-[80%]'>
             <p className='text-zinc-950 font-Instrument text-[2.5vw] leading-[1.1] mobile:text-[2.6vh]'>

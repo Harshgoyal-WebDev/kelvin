@@ -69,7 +69,7 @@ function Level() {
             <div className="flex w-full justify-center items-center mt-[2vw] mobile:flex-col">
               <div className="flex gap-[1vw] mobile:gap-[4vh] mobile:w-full mobile:justify-center">
                 <div className="w-[30%] mobile:w-[20%]">
-                  <Image src="/images/FidoLevel.webp" alt="fidobrand" width={123} height={76}/>
+                  <Image src="/images/FidoLevel.webp" loading="lazy" alt="fidobrand" width={123} height={76}/>
                 </div>
 
                 <p className="w-[60%] text-[0.8vw] mobile:text-[2vh] mobile:w-[40%]">
@@ -194,6 +194,7 @@ function Level() {
               <Image
                 src="/images/level1img.webp"
                 alt="level1img"
+                loading="lazy"
                 className="img1 absolute w-full z-[10] h-full object-cover top-0 left-0"
                 height={768}
                 width={676}
@@ -201,6 +202,7 @@ function Level() {
               <Image
                 src="/images/level2img.webp"
                 alt="level2img"
+                loading="lazy"
                 className="img2 absolute w-full h-full object-cover top-0 left-0"
                 height={768}
                 width={676}
@@ -248,6 +250,7 @@ function Level() {
               <img
                 src="/images/level1img.webp"
                 alt="levelmobimg"
+                loading="lazy"
                 className="rounded-[3vh]"
               />
             </div>
@@ -267,6 +270,7 @@ function Level() {
               <img
                 src="/images/level2img.webp"
                 alt="levelmobimg"
+                loading="lazy"
                 className="rounded-[3vh]"
               />
             </div>

@@ -311,7 +311,7 @@ function Hero() {
             </h1>
           </div>
           <div className="absolute object-cover w-full mobile:hidden">
-            <img src="/images/bg-kelvin.webp" alt="background-image" />
+            <img src="/images/bg-kelvin.webp" alt="background-image" width={1920} height={1080} />
           </div>
           <div className="absolute object-cover w-full hidden mobile:block mobile:mt-[]">
             <img src="/images/bg_mobile.webp"  alt="bg-mobileimg"/>
