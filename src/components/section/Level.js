@@ -1,6 +1,7 @@
 import React from "react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
+import Image from "next/image";
 
 import { useGSAP } from "@gsap/react";
 gsap.registerPlugin(ScrollTrigger);
@@ -68,7 +69,7 @@ function Level() {
             <div className="flex w-full justify-center items-center mt-[2vw] mobile:flex-col">
               <div className="flex gap-[1vw] mobile:gap-[4vh] mobile:w-full mobile:justify-center">
                 <div className="w-[30%] mobile:w-[20%]">
-                  <img src="/images/FidoLevel.png" alt="fidobrand" />
+                  <Image src="/images/FidoLevel.png" alt="fidobrand" />
                 </div>
 
                 <p className="w-[60%] text-[0.8vw] mobile:text-[2vh] mobile:w-[40%]">
@@ -190,12 +191,12 @@ function Level() {
               </div>
             </div>
             <div className="w-[40%] h-[40vw] rounded-[3vw] overflow-hidden relative image">
-              <img
+              <Image
                 src="/images/level1img.jpg"
                 alt="level1img"
                 className="img1 absolute w-full z-[10] h-full object-cover top-0 left-0"
               />
-              <img
+              <Image
                 src="/images/level2img.jpg"
                 alt="level2img"
                 className="img2 absolute w-full h-full object-cover top-0 left-0"

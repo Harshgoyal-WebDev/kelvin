@@ -1,6 +1,7 @@
 import React from "react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
+import Image from "next/image";
 
 import { useGSAP } from "@gsap/react";
 gsap.registerPlugin(ScrollTrigger);
@@ -62,7 +63,7 @@ function Feature() {
         <div className="feature-container w-full flex justify-center items-center py-[10vw] mobile:py-[2vh] feature-card">
           <div className="h-[35vw] w-[80vw] bg-[#141414] rounded-[3vw] flex mobile:h-[90vh] mobile:w-[95%] mobile:rounded-[3vh] mobile:flex-col">
             <div className="w-[45%] h-[50%] mobile:w-[95%]">
-              <img
+              <Image
                 src="/images/featureimg1.png"
                 alt="feature1"
                 className="px-[3vw]"
@@ -89,7 +90,7 @@ function Feature() {
         <div className="feature-container2 w-full flex justify-center items-center py-[10vw] mobile:py-[1vh] feature-card">
           <div className="h-[35vw] w-[80vw] bg-[#E1F0FD] rounded-[3vw] flex mobile:h-[70vh] mobile:w-[95%] mobile:rounded-[3vh] mobile:flex-col">
             <div className="w-[45%] h-[50%] mobile:w-full mobile:flex mobile:justify-center mobile:items-center">
-              <img
+              <Image
                 src="/images/featureimg2.png"
                 alt="feature1"
                 className="px-[3vw] mobile:w-[90%]"
@@ -112,7 +113,7 @@ function Feature() {
         <div className="feature-container3 w-full flex justify-center items-center py-[10vw] mobile:py-[1vh] feature-card">
           <div className="h-[35vw] w-[80vw] bg-[#324EEF] rounded-[3vw] flex mobile:w-[95%] mobile:h-[70vh] mobile:rounded-[3vh] mobile:flex-col overflow-hidden">
             <div className="w-[40%] h-[50%]  mobile:w-full mobile:flex mobile:justify-center mobile:items-center mobile:overflow-hidden ">
-              <img
+              <Image
                 src="/images/featureimg3.png"
                 alt="feature1"
                 className="object-cover mobile:w-[90%]"

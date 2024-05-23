@@ -3,6 +3,7 @@ import Cards from '../Cards'
 import gsap from "gsap";
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
+import Image from 'next/image';
 
 function Cardwheel() {
     useGSAP(() => {
@@ -75,7 +76,7 @@ function Cardwheel() {
       <section className='relative h-[100vh] w-screen z-[50] mt-[-150vh] mobile:mt-[7vh] mobile:py-[7vh] mobile:h-[250vh] cardwheel-section tablet:h-[100vh] tablet:mt-[-100vh]'>
       <div className="cardWheel-bg w-full h-full bg-[#D6D8E2] absolute top-[50%] overflow-hidden mobile:top-0">
           <div className="w-[90%] object-contain absolute top-0 left-0 mobile:w-[150%]">
-            <img src="/images/CardwheelBg.svg" alt="Cardwheel-bg-svg" />
+            <Image src="/images/CardwheelBg.svg" alt="Cardwheel-bg-svg" />
           </div>
           <div className="w-full h-1/2 flex justify-center items-center z-[50] cardwheel-heading  mobile:items-start mt-[10vh]">
               <h3 className="text-[5vw] w-[35%] font-Instrument text-center leading-[1] mobile:text-[4vh] mobile:w-[60%]">
