@@ -69,7 +69,7 @@ function Level() {
             <div className="flex w-full justify-center items-center mt-[2vw] mobile:flex-col">
               <div className="flex gap-[1vw] mobile:gap-[4vh] mobile:w-full mobile:justify-center">
                 <div className="w-[30%] mobile:w-[20%]">
-                  <Image src="/images/FidoLevel.png" alt="fidobrand" />
+                  <Image src="/images/FidoLevel.webp" alt="fidobrand" width={123} height={76}/>
                 </div>
 
                 <p className="w-[60%] text-[0.8vw] mobile:text-[2vh] mobile:w-[40%]">
@@ -192,14 +192,18 @@ function Level() {
             </div>
             <div className="w-[40%] h-[40vw] rounded-[3vw] overflow-hidden relative image">
               <Image
-                src="/images/level1img.jpg"
+                src="/images/level1img.webp"
                 alt="level1img"
                 className="img1 absolute w-full z-[10] h-full object-cover top-0 left-0"
+                height={768}
+                width={676}
               />
               <Image
-                src="/images/level2img.jpg"
+                src="/images/level2img.webp"
                 alt="level2img"
                 className="img2 absolute w-full h-full object-cover top-0 left-0"
+                height={768}
+                width={676}
               />
             </div>
           </div>
@@ -242,7 +246,7 @@ function Level() {
             </p>
             <div className="w-[90%] mt-[7vh] ">
               <img
-                src="/images/level1img.jpg"
+                src="/images/level1img.webp"
                 alt="levelmobimg"
                 className="rounded-[3vh]"
               />
@@ -261,7 +265,7 @@ function Level() {
             </p>
             <div className="w-[90%] mt-[7vh] ">
               <img
-                src="/images/level2img.jpg"
+                src="/images/level2img.webp"
                 alt="levelmobimg"
                 className="rounded-[3vh]"
               />

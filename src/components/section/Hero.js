@@ -3,7 +3,7 @@ import gsap from "gsap";
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
 import Button from "../Button";
 import { useGSAP } from "@gsap/react";
-import Image from "next/image";
+// import Image from "next/image";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -311,10 +311,10 @@ function Hero() {
             </h1>
           </div>
           <div className="absolute object-cover w-full mobile:hidden">
-            <Image src="/images/bg-kelvin.webp" alt="background-image" />
+            <img src="/images/bg-kelvin.webp" alt="background-image" />
           </div>
           <div className="absolute object-cover w-full hidden mobile:block mobile:mt-[]">
-            <Image src="/images/bg_mobile.webp" alt="bg-mobileimg"/>
+            <img src="/images/bg_mobile.webp"  alt="bg-mobileimg"/>
           </div>
         </div>
         
@@ -356,11 +356,11 @@ function Hero() {
             
             <h3 className="text-white text-[2vw] mobile:mt-[80vh] mobile:text-[2.5vh] mobile:w-[50%] mobile:text-center">Security Solutions Trusted by Leaders</h3>
             <div className="flex justify-between gap-[4vw] pt-[4vw] w-screen px-[5vw] mobile:hidden tablet:hidden">
-              <Image src="/images/brand1.png" alt="brand1"/>
-              <Image src="/images/brand2.png" alt="brand2"/>
-              <Image src="/images/brand3.png" alt="brand3"/>
-              <Image src="/images/brand4.png" alt="brand4"/>
-              <Image src="/images/brand5.png" alt="brand5"/>
+              <img src="/images/brand1.webp" alt="brand1"/>
+              <img src="/images/brand2.webp" alt="brand2"/>
+              <img src="/images/brand3.webp" alt="brand3"/>
+              <img src="/images/brand4.webp" alt="brand4"/>
+              <img src="/images/brand5.webp" alt="brand5"/>
             </div>
             
           </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
-import Image from "next/image";
+
 
 import { useGSAP } from "@gsap/react";
 
@@ -195,7 +195,7 @@ function Benefits() {
         </div>
         <div className="hidden mobile:block mobile:mt-[110vh]">
             <div className="w-full h-full flex justify-center items-center">
-              <Image src="/images/1@2x.png" alt="mobile-benefits" className=" w-[80%]"/>  
+              <img src="/images/1@2x.webp" loading="lazy" alt="mobile-benefits" className=" w-[80%]" width={430} height={594}/>  
             </div>
             <div className="w-screen flex flex-col  justify-center items-center text-white mt-[12vh]">
               <h4 className="text-[4vh] ">
@@ -203,7 +203,7 @@ function Benefits() {
               </h4>
               <p className=" w-[80%] text-center text-[2vh] leading-[1.1] mt-[2.5vh]">Redefine authentication with a secure biometric pass</p>
               <div className="mt-[6vh] w-[85%]">
-                <Image src="/images/2@2x.png" alt="benefits-credit"/>
+                <img src="/images/2@2x.webp" loading="lazy" alt="benefits-credit" width={430} height={594}/>
               </div>
             </div>
           </div>
@@ -230,15 +230,21 @@ function Benefits() {
           </div>
         </div>
         <div className="absolute h-screen z-50 w-full top-[0.25%] img-anim opacity-0 mobile:hidden">
-          <Image
-            src="/images/benifit-card.png"
+          <img
+            src="/images/benifit-card.webp"
             alt="benefit-card"
+            loading="lazy"
             className="absolute top-0 left-0 img-anim1 w-full h-full object-cover"
+            width={1920}
+            height={1080}
           />
-          <Image
-            src="/images/benifit-mob.png"
+          <img
+            src="/images/benifit-mob.webp"
             alt="benifit-mob"
+            loading="lazy"
             className="absolute top-0 left-0 img-anim2 w-full h-full object-cover"
+            width={1920}
+            height={1080}
           />
         </div>
         <div className="absolute mt-[-23vw] w-full h-full flex flex-col justify-center items-center card-anim mobile:flex mobile-flex-col mobile:static mobile:mt-[10vh]">
@@ -249,7 +255,7 @@ function Benefits() {
           <div className="flex justify-around  w-full text-white mt-[3vw] h-[25vw] px-[2vw] gap-[2vw] mobile:flex-col mobile:h-[100vh] mobile:px-[3vh] mobile:gap-[2vh] mobile:mt-[6vh] ">
             <div className="w-[32%] bg-[#1A1A1A] p-[4vw]  border-opacity-20 border-neutral-700 border-[0.2vw] mobile:w-full mobile:h-[40%] mobile:p-[4vh] mob-benefits-card ">
               <div className="w-[4vw] mobile:w-[7vh]">
-                <Image src="/images/kzero-key.svg" alt="kzero-key" />
+                <img src="/images/kzero-key.svg" alt="kzero-key" />
               </div>
               <div className="w-full h-[1px] bg-white my-[1vw] mobile:my-[2vh]"></div>
               <h3 className="text-[3vw] font-Instrument mobile:text-[3vh]">Security</h3>
@@ -259,7 +265,7 @@ function Benefits() {
             </div>
             <div className="w-[32%] bg-[#1A1A1A] p-[4vw]  border-opacity-20 border-neutral-700 border-[0.2vw] mobile:w-full mobile:h-[40%] mobile:p-[4vh] mob-benefits-card ">
               <div className="w-[4vw] mobile:w-[7vh]">
-                <Image src="/images/kzero-secure.svg" alt="kzero-key" />
+                <img src="/images/kzero-secure.svg" alt="kzero-key" />
               </div>
               <div className="w-full h-[1px] bg-white my-[1vw] mobile:my-[2vh]"></div>
               <h3 className="text-[3vw] font-Instrument mobile:text-[3vh]">Convenience</h3>
@@ -270,7 +276,7 @@ function Benefits() {
             <div className="w-[32%] bg-[#1A1A1A] p-[4vw]  border-opacity-20 border-neutral-700 border-[0.2vw] mobile:w-full mobile:h-[40%] mobile:p-[4vh] mob-benefits-card">
               <div className="w-[4vw] mobile:w-[7vh]">
                 {" "}
-                <Image src="/images/kzero-share.svg" alt="kzero-key" />
+                <img src="/images/kzero-share.svg" alt="kzero-key" />
               </div>
               <div className="w-full h-[1px] bg-white my-[1vw] mobile:my-[2vh]"></div>
               <h3 className="text-[3vw] font-Instrument mobile:text-[3vh]">Interoperability</h3>

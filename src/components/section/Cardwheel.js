@@ -76,7 +76,7 @@ function Cardwheel() {
       <section className='relative h-[100vh] w-screen z-[50] mt-[-150vh] mobile:mt-[7vh] mobile:py-[7vh] mobile:h-[250vh] cardwheel-section tablet:h-[100vh] tablet:mt-[-100vh]'>
       <div className="cardWheel-bg w-full h-full bg-[#D6D8E2] absolute top-[50%] overflow-hidden mobile:top-0">
           <div className="w-[90%] object-contain absolute top-0 left-0 mobile:w-[150%]">
-            <Image src="/images/CardwheelBg.svg" alt="Cardwheel-bg-svg" />
+            <Image src="/images/CardwheelBg.svg" alt="Cardwheel-bg-svg" width={1920} height={1080} />
           </div>
           <div className="w-full h-1/2 flex justify-center items-center z-[50] cardwheel-heading  mobile:items-start mt-[10vh]">
               <h3 className="text-[5vw] w-[35%] font-Instrument text-center leading-[1] mobile:text-[4vh] mobile:w-[60%]">
@@ -88,27 +88,27 @@ function Cardwheel() {
               <div className="card translate-y-[-2vw]">
                 <Cards
                   content={"Deliver a secure and frictionless login experience"}
-                  src={"/images/cardimg1.png"}
+                  src={"/images/cardimg1.webp"}
                   ind={"{ 01 }"}
                 />
               </div>
               <div className="rotate-[9deg] translate-y-[0.5vw] translate-x-[-0.2vw] card mobile:rotate-0 mobile:translate-y-0 mobile:translate-x-0">
                 <Cards
                   content={"Meet and exceed stringent regulatory requirements"}
-                  src={"/images/cardimg2.png"}
+                  src={"/images/cardimg2.webp"}
                   ind={"{ 02 }"}
                 />
               </div>
 
               <div className="rotate-[16deg] translate-y-[8vw] translate-x-[-1.5vw] card mobile:rotate-0 mobile:translate-y-0 mobile:translate-x-0">
                 <Cards content={"Reduce costs and free up IT resources"}
-                src={"/images/cardimg3.png"}
+                src={"/images/cardimg3.webp"}
                 ind={"{ 03 }"} />
               </div>
               <div className="rotate-[25deg] translate-y-[20vw] translate-x-[-4vw] card mobile:rotate-0 mobile:translate-y-0 mobile:translate-x-0">
                 <Cards
                   content={"Future proof against new credential-based threats"}
-                  src={"/images/cardimg4.png"}
+                  src={"/images/cardimg4.webp"}
                   ind={"{ 04 }"}
                 />
               </div>

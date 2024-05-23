@@ -1,8 +1,7 @@
-import Loader from "@/components/section/Loader";
+"use client"
 import "@/styles/globals.css";
 import ReactLenis from "@studio-freight/react-lenis";
-import gsap from "gsap";
-import { useEffect } from "react";
+
 import Head from "next/head";
 
 export default function App({ Component, pageProps }) {

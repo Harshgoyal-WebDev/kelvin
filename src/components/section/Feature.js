@@ -64,9 +64,11 @@ function Feature() {
           <div className="h-[35vw] w-[80vw] bg-[#141414] rounded-[3vw] flex mobile:h-[90vh] mobile:w-[95%] mobile:rounded-[3vh] mobile:flex-col">
             <div className="w-[45%] h-[50%] mobile:w-[95%]">
               <Image
-                src="/images/featureimg1.png"
+                src="/images/featureimg1.webp"
                 alt="feature1"
                 className="px-[3vw]"
+                width={691}
+                height={651}
               />
             </div>
             <div className="w-[50%] flex flex-col  text-white font-Instrument mobile:w-full mobile:px-[4vh] mobile:mt-[-5vh]">
@@ -91,9 +93,11 @@ function Feature() {
           <div className="h-[35vw] w-[80vw] bg-[#E1F0FD] rounded-[3vw] flex mobile:h-[70vh] mobile:w-[95%] mobile:rounded-[3vh] mobile:flex-col">
             <div className="w-[45%] h-[50%] mobile:w-full mobile:flex mobile:justify-center mobile:items-center">
               <Image
-                src="/images/featureimg2.png"
+                src="/images/featureimg2.webp"
                 alt="feature1"
                 className="px-[3vw] mobile:w-[90%]"
+                width={691}
+                height={651}
               />
             </div>
             <div className="w-[50%] flex flex-col  text-zinc-800 font-Instrument mobile:w-full mobile:px-[4vh] mobile:mt-[4vh] ">
@@ -114,9 +118,11 @@ function Feature() {
           <div className="h-[35vw] w-[80vw] bg-[#324EEF] rounded-[3vw] flex mobile:w-[95%] mobile:h-[70vh] mobile:rounded-[3vh] mobile:flex-col overflow-hidden">
             <div className="w-[40%] h-[50%]  mobile:w-full mobile:flex mobile:justify-center mobile:items-center mobile:overflow-hidden ">
               <Image
-                src="/images/featureimg3.png"
+                src="/images/featureimg3.webp"
                 alt="feature1"
                 className="object-cover mobile:w-[90%]"
+                width={691}
+                height={651}
               />
             </div>
             <div className="w-[50%] flex flex-col  text-white font-Instrument mobile:w-full mobile:px-[4vh] mobile:mt-[4vh] ">
