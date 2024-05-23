@@ -17,8 +17,8 @@ function Overview() {
 
   return (
     <section className="relative h-[160vh] bg-white w-screen px-[3vw] z-[60] mt-[-1vw] py-[10vw] font-Instrument overflow-hidden mobile:h-full tablet:h-full">
-      <div className="bg-[#F3F4F6] w-full h-[110%] rounded-[3vw] p-[10vw] mobile:px-[2vh] mobile:py-[10vh]">
-        <div className="overview-container w-full h-full">
+      <div className="bg-[#F3F4F6] w-full h-[110%] rounded-[3vw] p-[10vw] mobile:px-[2vh] mobile:py-[10vh] overview-container">
+        
           <div className="w-full flex justify-center items-center">
             <h3 className="text-[4vw] mobile:text-[4vh] leading-[1] mobile:text-center">
               How <span className="text-blue-700">Multi-Pass</span> Works
@@ -49,7 +49,7 @@ function Overview() {
             <div className="w-[40vw] h-[55vh] justify-start items-center absolute top-[5%] left-[45%] overflow-hidden mobile:w-full mobile:h-[30vh] mobile:static mobile:order-1 mobile:mt-[5vh] tablet:top-[5%] tablet:h-[20vh]" ref={lottieContainer}></div>
           </div>
         </div>
-      </div>
+      
     </section>
   );
 }
