@@ -4,15 +4,25 @@ import Lottie from "lottie-web";
 
 function Overview() {
   const lottieContainer = useRef(null);
-
-  useEffect(() => {
-    Lottie.loadAnimation({
-      container: lottieContainer.current,
-      renderer: 'svg',
-      loop: true,
-      autoplay: true,
-      path: '/overviewLottie1.json'
-    });
+   var sc=0
+  useEffect(() => { 
+    window.addEventListener('scroll', function() {
+      if(sc == 0){
+          sc=1;
+          Lottie.loadAnimation({
+            container: lottieContainer.current,
+            renderer: 'svg',
+            loop: true,
+            autoplay: true,
+            path: '/overviewLottie1.json'
+          });
+         
+      }
+  });
+  window.onload = function() {
+      window.scrollTo(window.scrollX, window.scrollY - 1);
+      window.scrollTo(window.scrollX, window.scrollY + 1);
+  };
   }, []);
 
   return (

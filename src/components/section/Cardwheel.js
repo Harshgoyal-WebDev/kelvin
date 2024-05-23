@@ -1,7 +1,7 @@
 import React from 'react'
 import Cards from '../Cards'
 import gsap from "gsap";
-import ScrollTrigger from 'gsap/dist/ScrollTrigger';
+
 import { useGSAP } from "@gsap/react";
 import Image from 'next/image';
 

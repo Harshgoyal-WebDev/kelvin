@@ -1,9 +1,9 @@
-import React, { useEffect, useRef } from "react";
+import React, { useRef } from "react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
 import Button from "../Button";
 import { useGSAP } from "@gsap/react";
-// import Image from "next/image";
+
 
 gsap.registerPlugin(ScrollTrigger);
 
