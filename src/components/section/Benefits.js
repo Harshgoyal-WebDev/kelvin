@@ -1,7 +1,5 @@
-import React from "react";
-import gsap from "gsap";
+import { gsap } from "gsap";
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
-
 
 import { useGSAP } from "@gsap/react";
 
@@ -255,7 +253,7 @@ function Benefits() {
           <div className="flex justify-around  w-full text-white mt-[3vw] h-[25vw] px-[2vw] gap-[2vw] mobile:flex-col mobile:h-[100vh] mobile:px-[3vh] mobile:gap-[2vh] mobile:mt-[6vh] ">
             <div className="w-[32%] bg-[#1A1A1A] p-[4vw]  border-opacity-20 border-neutral-700 border-[0.2vw] mobile:w-full mobile:h-[40%] mobile:p-[4vh] mob-benefits-card ">
               <div className="w-[4vw] mobile:w-[7vh]">
-                <img src="/images/kzero-key.svg" alt="kzero-key" />
+                <img src="/images/kzero-key.svg" alt="kzero-key" height={200} width={200} />
               </div>
               <div className="w-full h-[1px] bg-white my-[1vw] mobile:my-[2vh]"></div>
               <h3 className="text-[3vw] font-Instrument mobile:text-[3vh]">Security</h3>
@@ -265,7 +263,7 @@ function Benefits() {
             </div>
             <div className="w-[32%] bg-[#1A1A1A] p-[4vw]  border-opacity-20 border-neutral-700 border-[0.2vw] mobile:w-full mobile:h-[40%] mobile:p-[4vh] mob-benefits-card ">
               <div className="w-[4vw] mobile:w-[7vh]">
-                <img src="/images/kzero-secure.svg" alt="kzero-key" />
+                <img src="/images/kzero-secure.svg" alt="kzero-key"  height={200} width={200}/>
               </div>
               <div className="w-full h-[1px] bg-white my-[1vw] mobile:my-[2vh]"></div>
               <h3 className="text-[3vw] font-Instrument mobile:text-[3vh]">Convenience</h3>
@@ -276,7 +274,7 @@ function Benefits() {
             <div className="w-[32%] bg-[#1A1A1A] p-[4vw]  border-opacity-20 border-neutral-700 border-[0.2vw] mobile:w-full mobile:h-[40%] mobile:p-[4vh] mob-benefits-card">
               <div className="w-[4vw] mobile:w-[7vh]">
                 {" "}
-                <img src="/images/kzero-share.svg" alt="kzero-key" />
+                <img src="/images/kzero-share.svg" alt="kzero-key" height={200} width={200} />
               </div>
               <div className="w-full h-[1px] bg-white my-[1vw] mobile:my-[2vh]"></div>
               <h3 className="text-[3vw] font-Instrument mobile:text-[3vh]">Interoperability</h3>

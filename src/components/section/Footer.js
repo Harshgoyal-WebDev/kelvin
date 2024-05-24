@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "../Button";
-import gsap from "gsap";
+import {gsap} from "gsap";
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
 
 import { useGSAP } from "@gsap/react";

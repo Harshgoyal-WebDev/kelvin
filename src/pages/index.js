@@ -11,9 +11,8 @@ import Level from '@/components/section/Level'
 import Loader from '@/components/section/Loader'
 import Overview from '@/components/section/Overview'
 
-import React from 'react'
-
 function index() {
+
   return (
     <>
     <Loader/>

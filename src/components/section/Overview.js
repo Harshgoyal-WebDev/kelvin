@@ -1,29 +1,30 @@
-import React, { useEffect, useRef } from "react";
 import Button from "../Button";
-import Lottie from "lottie-web";
+import { LottiePlayer } from 'lottie-web';
+import { useRef,useState ,useEffect } from "react";
+
 
 function Overview() {
   const lottieContainer = useRef(null);
-   var sc=0
-  useEffect(() => { 
-    window.addEventListener('scroll', function() {
-      if(sc == 0){
-          sc=1;
-          Lottie.loadAnimation({
-            container: lottieContainer.current,
-            renderer: 'svg',
-            loop: true,
-            autoplay: true,
-            path: '/overviewLottie1.json'
-          });
-         
-      }
-  });
-  window.onload = function() {
-      window.scrollTo(window.scrollX, window.scrollY - 1);
-      window.scrollTo(window.scrollX, window.scrollY + 1);
-  };
+  const [lottie, setLottie] = useState(null);
+
+  useEffect(() => {
+    import('lottie-web').then((Lottie) => setLottie(Lottie.default));
   }, []);
+
+  useEffect(() => {
+    if (lottie && lottieContainer.current) {
+      const animation = lottie.loadAnimation({
+        container: lottieContainer.current,
+        renderer: 'svg',
+        loop: true,
+        autoplay: true,
+        // path to your animation file, place it inside public folder
+        path: '/overviewLottie1.json',
+      });
+
+      return () => animation.destroy();
+    }
+  }, [lottie]);
 
   return (
     <section className="relative h-[160vh] bg-white w-screen px-[3vw] z-[60] mt-[-1vw] py-[10vw] font-Instrument overflow-hidden mobile:h-full tablet:h-full">

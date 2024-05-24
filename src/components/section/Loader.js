@@ -1,7 +1,7 @@
 import { useGSAP } from "@gsap/react";
-import React from "react";
+
 import { useRef } from "react";
-import gsap from "gsap";
+import {gsap} from "gsap";
 
 
 function Loader() {

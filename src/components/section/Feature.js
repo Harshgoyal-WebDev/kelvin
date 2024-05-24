@@ -1,5 +1,5 @@
-import React from "react";
-import gsap from "gsap";
+
+import {gsap} from "gsap";
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
 import Image from "next/image";
 

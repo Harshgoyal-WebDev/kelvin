@@ -13,6 +13,12 @@ export default function App({ Component, pageProps }) {
         <meta property="og:title" content="Kelvin-Zero" key="title" />
         <meta property="og:description" content="Protect your organization with next-gen passwordless authentication." key="description"/>
         <meta name="description" content="Protect your organization with next-gen passwordless authentication."></meta>
+        <link
+        rel="preload"
+        href="/font/InstrumentSans.ttf"
+        as="font"
+        crossOrigin=""
+      />
     </Head>
   <ReactLenis root duration={1}>
     

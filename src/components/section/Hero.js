@@ -154,12 +154,12 @@ const Hero = () => {
             <img
               src="/images/bg-kelvin.webp"
               alt="background-image"
-              width={1920}
-              height={1080}
+              
+             
             />
           </div>
           <div className="absolute object-cover w-full hidden mobile:block mobile:mt-[]">
-            <img src="/images/bg_mobile.webp" alt="bg-mobileimg" />
+            <img src="/images/bg_mobile.webp" alt="bg-mobileimg" loading="lazy" />
           </div>
         </div>
         <div className="h-[100vh] absolute top-0 left-0 w-screen mobile:h-full">
@@ -193,11 +193,12 @@ const Hero = () => {
           Security Solutions Trusted by Leaders
         </h3>
         <div className="flex justify-between gap-[4vw] pt-[4vw] w-screen px-[5vw] mobile:hidden tablet:hidden">
-          <img src="/images/brand1.webp" alt="brand1" />
-          <img src="/images/brand2.webp" alt="brand2" />
-          <img src="/images/brand3.webp" alt="brand3" />
-          <img src="/images/brand4.webp" alt="brand4" />
-          <img src="/images/brand5.webp" alt="brand5" />
+          <img src="/images/brand1.webp" alt="brand1" height={200} width={200}/>
+          <img src="/images/brand2.webp" alt="brand2" height={200} width={200} />
+          <img src="/images/brand3.webp" alt="brand3" height={200} width={200} />
+          <img src="/images/brand3.webp" alt="brand3" height={200} width={200} />
+          <img src="/images/brand4.webp" alt="brand4" height={200} width={200} />
+          <img src="/images/brand5.webp" alt="brand5" height={200} width={200} />
         </div>
       </div>
       <div className="flex justify-center items-center w-full h-full z-40 absolute top-[270%] banner mobile:top-[300%] ">
