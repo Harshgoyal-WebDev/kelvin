@@ -1,7 +1,6 @@
 
 import "@/styles/globals.css";
 import ReactLenis from "@studio-freight/react-lenis";
-
 import Head from "next/head";
 
 export default function App({ Component, pageProps }) { 
@@ -20,7 +19,7 @@ export default function App({ Component, pageProps }) {
         crossOrigin=""
       />
     </Head>
-  <ReactLenis root duration={1}>
+  <ReactLenis root duration={2}>
     
   <Component {...pageProps} /></ReactLenis> </>);
 }

@@ -144,22 +144,20 @@ const Hero = () => {
         <div className="h-full bg-[#EAECF4] flex justify-center items-center w-full hero-bg ">
           <div className="w-[45%] -mt-[15%] text-center hero-head mobile:w-[90%] mobile:mt-[-70%] ">
             <h1 className="text-[5.2vw] leading-[1] mobile:text-[10vw]">
-              <span className="hero-intro">
+              
                 <span className="text-blue-700"> Unlock </span> the Future
-              </span>
-              <span className="hero-intro"> of Authentication</span>
+              
+              of Authentication
             </h1>
           </div>
           <div className="absolute object-cover w-full mobile:hidden">
             <img
               src="/images/bg-kelvin.webp"
               alt="background-image"
-              
-             
             />
           </div>
-          <div className="absolute object-cover w-full hidden mobile:block mobile:mt-[]">
-            <img src="/images/bg_mobile.webp" alt="bg-mobileimg" loading="lazy" />
+          <div className="absolute object-cover w-full hidden mobile:block">
+            <img src="/images/bg_mobile.webp" alt="bg-mobileimg" width={750} height={1280} loading="lazy"/>
           </div>
         </div>
         <div className="h-[100vh] absolute top-0 left-0 w-screen mobile:h-full">

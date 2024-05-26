@@ -7,7 +7,7 @@ function Header() {
     <>
       <nav className=" fixed z-[90] top-0 left-0 w-screen mobile:absolute overflow-hidden">
         <div className="hidden mobile:block w-[35%] mt-[2vh] ml-[3vh] ">
-           <Image src="/Nav.svg" alt="mobile-header-logo"/>
+           <Image src="/Nav.svg" width={100} height={100} alt="mobile-header-logo"/>
         </div>
         <div className="w-full flex justify-center items-center pt-[1vw] mobile:hidden">
         <div className="flex justify-center items-center gap-[2vw] text-[1vw] bg-white opacity-85 rounded-full w-fit py-[1.7vw] h-[5.5vh] px-[0.3vw]">

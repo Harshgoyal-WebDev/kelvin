@@ -252,6 +252,8 @@ function Level() {
                 alt="levelmobimg"
                 loading="lazy"
                 className="rounded-[3vh]"
+                width={300}
+                height={600}
               />
             </div>
 
@@ -272,6 +274,8 @@ function Level() {
                 alt="levelmobimg"
                 loading="lazy"
                 className="rounded-[3vh]"
+                width={300}
+                height={600}
               />
             </div>
           </div>
